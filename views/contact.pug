@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/styleContact.css
+
+block content 
+    div.container
+        h1 CONTACT US
+        form(action="/contact" , method="post" , class="myForm")
+            input(type="text" , class="myInput" , name="name" , placeholder="Enter Your Name")
+            input(type="email" , class="myInput" , name="email" , placeholder="Enter Your Email Id")
+            input(type="text" , class="myInput" , name="desc" , placeholder="Enter Your Dance form ")
+            input(type="phone" , class="myInput" , name="phone" , placeholder="Enter Your Mobile no")
+            input(type="text" , class="myInput" , name="address" , placeholder="Enter Your Address")
+            button(class="btn")
+                |  SUBMIT

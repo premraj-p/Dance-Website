@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#logo img {
+    height: 42px;
+    
+
+}
+/* #logo img:hover{
+    --webkit-transform : scale(-1);
+    transform: scale(-1);
+} */
+
+#navbar{
+    background-color:#e202026e;
+    padding: 13px 14px;
+}
+
+
+#navbar  ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 14px 28px;
+    
+}
+#navbar li a:hover{
+    color: white;
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 8px;
+    padding: 3px 5px;
+    
+}
+
+
+/* INTRO SECTION */
+#introSection{
+    padding-bottom: 55px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 694px;
+    background-color: red;
+    z-index: -1;
+    
+}
+
+#introSection div.subtitle{
+    font-size: 20px;
+}
+
+#introSection div.content{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* MISSION SECTION */
+#missionSection{
+    height: 300px;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+}
+#missionSection h2{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 31px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 9px 14px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 6px 7px #887b7b ;
+    transition:  height 1s ease;
+}
+.card:hover{
+    height: 210px;
+    
+    background-color: rgb(241, 236, 228);
+}
+
+.card h3{
+     text-align: center;
+     margin: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+   
+}
+
+.card-content{
+    padding:0px 10px;
+}
+
+.card-content p{
+    font-size: 15px;
+}
+
+
+
+/* SPONSOR SECTION */
+#sponsorSection{
+    height: 243px;
+    text-align: center;
+    background-color:#ff000052;
+}
+#sponsorSection h3{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 28px;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+
+/* FOOTER SECTION */
+#footer{
+    height: 36px;
+    background-color: rgb(0,0,0);
+    color: white;
+    padding-left: 500px;
+}
